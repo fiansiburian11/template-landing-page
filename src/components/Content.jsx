@@ -13,27 +13,27 @@ export default function Content() {
 
   return (
     <div>
-      <main className="pt-12">
+      <main className="pt-10">
         <section className="h-screen bg-gradient-to-r from-red-500 to-blue-500 flex items-center justify-center">
-          <p data-aos="zoom-in-up" className="text-4xl font-bold text-white">
+          <p data-aos="zoom-in-up" className="text-sm sm:text-xs md:text-lg lg:text-2xl font-bold text-white text-center">
             Welcome to My Website
           </p>
         </section>
-        <section id="project" className="h-screen bg-gradient-to-r from-purple-500 to-indigo-900 flex items-center justify-center space-x-10">
-          <p data-aos="fade-right" className="text-4xl font-bold text-white bg-none border-4 p-5 rounded-full hover:shadow-lg cursor-pointer">
+        <section id="project" className="h-screen bg-gradient-to-r from-purple-500 to-indigo-900 flex items-center justify-center space-x-5">
+          <button data-aos="fade-right" className="sm:text-xs md:text-lg lg:text-2xl sm:p-1 md:p-3 lg:p-5 text-xs font-bold text-white bg-none border-2 p-2 rounded-full hover:shadow-lg ">
             More content
-          </p>
-          <p data-aos="fade-up" className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-sky-900 border-4 p-5 rounded-full hover:shadow-lg cursor-pointer">
+          </button>
+          <button data-aos="fade-up" className="sm:text-xs md:text-lg lg:text-2xl sm:p-1 md:p-3 lg:p-5 text-xs font-bold bg-gradient-to-r from-blue-700 to-sky-900 border-2 p-2 rounded-full hover:shadow-lg ">
             More content
-          </p>
-          <div data-aos="fade-left" className="relative inline-block p-1 rounded-full bg-gradient-to-r from-purple-500 to-gray-500">
-            <div className="rounded-full bg-white/30 p-5 hover:shadow-lg">
-              <button className="bg-transparent text-white text-4xl font-bold rounded-full border border-transparent ">More content</button>
+          </button>
+          <div data-aos="fade-left" className="relative inline-block p-[2px] rounded-full bg-gradient-to-r from-purple-500 to-gray-500">
+            <div className="rounded-full bg-black/30 p-1 sm:p-1 md:p-3 lg:p-5 hover:shadow-lg">
+              <button className="sm:text-xs md:text-lg lg:text-2xl  text-white text-xs font-bold rounded-full border border-transparent ">More content</button>
             </div>
           </div>
         </section>
         <section id="contact" className="h-screen bg-gradient-to-r from-blue-500 to-green-500 flex items-center justify-center">
-          <button data-aos="flip-up" className="bg-black  p-5 rounded-lg hover:shadow-2xl text-4xl font-bold text-white ">
+          <button data-aos="flip-up" className="bg-black  p-3 rounded-lg sm:text-xs md:text-lg lg:text-2xl hover:shadow-2xl text-xs font-bold text-white ">
             Even more content
           </button>
         </section>
