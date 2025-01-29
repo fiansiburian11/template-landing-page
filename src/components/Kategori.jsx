@@ -11,11 +11,11 @@ export default function Kategori({ onSelectedCategory }) {
   };
 
   return (
-    <div className="bg-white text-black p-5">
+    <div className="bg-white text-black p-3">
       <h1 className="font-bold">Kategori</h1>
       <ul className="flex divide-x divide-gray-400 border border-gray-400 mt-1 text-center">
         {categories.map((category) => (
-          <li key={category} className={`px-4 py-2 w-full hover:bg-slate-300 cursor-pointer ${selectedCategory === category ? "bg-gray-300 font-bold" : ""}`} onClick={() => handleFilter(category)}>
+          <li key={category} className={`px-4 py-2 w-full hover:bg-slate-300 cursor-pointer text-  ${selectedCategory === category ? "bg-gray-300 font-bold" : ""}`} onClick={() => handleFilter(category)}>
             {category}
           </li>
         ))}

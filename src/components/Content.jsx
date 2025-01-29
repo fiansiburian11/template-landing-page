@@ -39,7 +39,7 @@ export default function Content() {
         <section className="min-h-screen bg-gradient-to-r from-red-500 to-blue-500 pt-10">
           <div className="mx-4">
             <Kategori onSelectedCategory={setSelectedCategory} />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 pt-2">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4 pt-2">
               {filteredProducts.length > 0 ? (
                 filteredProducts.map((product) => (
                   <div key={product.id} className="bg-white p-1 shadow-lg hover:shadow-xl flex flex-col justify-between">
